@@ -20,9 +20,12 @@ Make sure your wsl is wsl 2
 ## Docker
 Run the following codes in WSL2
 ```{r}
-#to pull the image from DockerHub
+#to pull the image from my DockerHub
+docker pull zoeyzuo1126/info550dechw5fp 
+
 docker run -it zoeyzuo1126/info550dechw5fp 
 
+#Retrieve 
 #create output dir
 mkdir ~/doutput
 #execute and generate report 
