@@ -31,9 +31,12 @@ mkdir ~/doutput
 #execute and generate report 
 docker run -v ~/doutput:/FP/output info550hw5fpdec
 
-##PS: 
-##If you want your own image, download the whole folder and set the folder address as wkdir, then
-docker build -t ???/info550dechw5fp .
+#Then you should be able to find the report in the directory
+#If Not, you can use the following line to set the directory to where you want to find the report
+docker run -v ~/doutput:/FP/output info550hw5fpdec
+
+#just replace ~ with the path
+
 ```
 
 
