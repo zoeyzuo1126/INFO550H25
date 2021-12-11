@@ -29,11 +29,11 @@ docker run -it zoeyzuo1126/info550dechw5fp
 #create output dir
 mkdir ~/doutput
 #execute and generate report 
-docker run -v ~/docker_output2:/FP/output zoeyzuo1126/info550hw5fpdec
+docker run -v ~/doutput:/FP/output zoeyzuo1126/info550hw5fpdec
 
 #Then you should be able to find the report in the directory
 #If Not, you can use the following line to set the directory to where you want to find the report
-docker run -v ~/docker_output2:/FP/output zoeyzuo1126/info550hw5fpdec
+docker run -v ~/doutput:/FP/output zoeyzuo1126/info550hw5fpdec
 
 #just replace ~ with the path
 
